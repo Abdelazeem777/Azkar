@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Page1">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginBottom="13dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/corner"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:text="@string/t1"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bu_start1"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/play" />
+
+                    <Button
+                        android:id="@+id/bu_pusse1"
+
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/pause" />
+
+                    <Button
+                        android:id="@+id/bu_plus1"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/zoom_in" />
+
+                    <Button
+                        android:id="@+id/bu_min1"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/zoom_out" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="13dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+
+                android:background="@drawable/corner"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:text="@string/t2"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bu_start2"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/play" />
+
+                    <Button
+                        android:id="@+id/bu_pusse2"
+
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/pause" />
+
+                    <Button
+                        android:id="@+id/bu_plus2"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/zoom_in" />
+
+                    <Button
+                        android:id="@+id/bu_min2"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/zoom_out" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="13dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+
+                android:background="@drawable/corner"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:text="@string/t3"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bu_start3"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/play" />
+
+                    <Button
+                        android:id="@+id/bu_pusse3"
+
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/pause" />
+
+                    <Button
+                        android:id="@+id/bu_plus3"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+
+                        android:background="@drawable/zoom_in" />
+
+                    <Button
+                        android:id="@+id/bu_min3"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/zoom_out" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
